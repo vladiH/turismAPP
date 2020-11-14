@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">FOOTPATHPERU</string>
+    <string name="configuracion">Update</string>
+    <string name="item_inicio">Home</string>
+    <string name="item_cuenta">Shopping cart</string>
+    <string name="item_categorias">Information</string>
+    <string name="item_configuracion">Setting</string>
+    <string name="paquetes_turisticos">Our packages</string>
+    <string name="etiqueta_carrito">Shopping cart</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_actividad_paquete">My package</string>
+    <string name="title_activity_actividad_pagina">Book</string>
+    <string name="boton_reservar_actividadPaquete">Add to cart</string>
+    <string name="delete_item">Delete package</string>
+    <string name="delete_item_message">Are you sure to delete this package?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="name">Tourist package</string>
+    <string name="unit_price">Personal price</string>
+    <string name="quantity">Members</string>
+    <string name="price">Price</string>
+    <string name="total_price">Total Price</string>
+    <string name="clear_cart">Clear Cart</string>
+    <string name="shop">Book</string>
+    <string name="noches">Nights</string>
+    <string name="cero_dolares">0</string>
+    <string name="itinerario">Itinerary</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="dias">Days</string>
+
+    <string name="title_activity_actividad_mapa">My route</string>
+    <string name="fragmentoCusco">Cusco</string>
+    <string name="fragmentoPeru">Peru</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_actividad_acerca">Acerca</string>
+    <string name="title_activity_actividad_about">Shopping cart</string>
+    <string name="anadido_al_carrito">Members added</string>
+    <string name="fragmentoEmpresa">Agent</string>
+    <string name="Pasajeros_paquete">MEMBERS PER PACKAGE</string>
+    <string name="Reservar_paquete">RESERVE NOW</string>
+    <string name="texto_mapa">Map</string>
+    <string name="texto_contactanos">Shopping cart</string>
+    <string name="carga">Processing..</string>
+    <string name="carga_cancelado">Loading information canceled !!</string>
+
+    <string name="To">To:</string>
+    <string name="Asunto">Subject:</string>
+    <string name="Mensaje">Message</string>
+    <string name="Enlace">Share APP link:</string>
+    <string name="error_cliente">There is not email client installed</string>
+    <string name="error_cliente1">Client not installed</string>
+    <string name="proximamente">This feature will be available soon</string>
+    <string name="action_search">Search</string>
+    <string name="principal_conexion">No network, try again later</string>
+    <string name="verifique_conexion">No network</string>
+    <string name="paquete_existe">No more packages</string>
+    <string name="texto_compartir">Check out FOOTPATHPERU App for your smartphone. Download it today from</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

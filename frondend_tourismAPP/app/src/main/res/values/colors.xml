@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores establecidos para la app, ubicado en style-->
+    <color name="window_background">#ffffff</color>
+    <!-- color sore la que estara la aplicacion, el fondo-->
+    <color name="primaryDarkColor">#1b000000</color>
+    <!-- cabecera drawer, background principal del menu-->
+    <color name="primaryColor">#ff25303f</color>
+    <color name="primaryColor1">#ff4b2a8a</color>
+    <color name="splash">#ffffff</color>
+    <!-- fragmento inicio, color texto de mis paquetes-->
+    <color name="color_light">#ffffff</color>
+    <!-- fragmento inicio, background-->
+    <color name="background_header_seccion_inicio">#ffffb800</color>
+
+    <!--color boton enfocado-->
+    <!--sombra-->
+    <color name="boton_enfocado_sombra">#FFCA28</color>
+    <!--contenido-->
+    <color name="boton_enfocado_contenido">#FFD54F</color>
+
+    <!--color boton normal-->
+    <!--sombra-->
+    <color name="boton_normal_sombra">#f178bd38</color>
+    <!--contenido-->
+    <color name="boton_normal_contenido">#ff78bd38</color>
+
+    <!--color boton presionado-->
+    <!--sombra-->
+    <color name="boton_presionado_sombra">#FFA726</color>
+    <!--contenido-->
+    <color name="boton_presionado_contenido">#FFB74D</color>
+    <color name="green1">#ff78bd38</color>
+    <color name="green">#ff9550fd</color>
+    <color name="orange">#ffff9600</color>
+    <color name="blue">#ff4b2a8a</color>
+    <color name="linea">#13000000</color>
+    <color name="transparente">#14000000</color>
+    <color name="transparente1">#80000000</color>
+    <color name="trazo_mapa">#ffff3400</color>
+    <color name="textoSeleccionado">#ff000000</color>
+</resources>

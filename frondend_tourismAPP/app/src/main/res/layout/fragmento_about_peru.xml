@@ -1,0 +1,158 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+
+    tools:context="fragmento.fragmento_about_peru">
+
+    <RelativeLayout
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            custom:pager_animation="Stack"
+            custom:auto_cycle="true"
+            custom:indicator_visibility="visible"
+            custom:pager_animation_span="1100"
+            android:minHeight="60dp"
+            android:layout_height="250dp"/>
+
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/custom_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            custom:selected_color="#0095BF"
+            custom:unselected_color="#55333333"
+            custom:shape="oval"
+            custom:selected_padding_left="5dp"
+            custom:selected_padding_right="5dp"
+            custom:unselected_padding_left="5dp"
+            custom:unselected_padding_right="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            custom:selected_width="6dp"
+            custom:selected_height="6dp"
+            custom:unselected_width="6dp"
+            custom:unselected_height="6dp"
+            android:layout_marginBottom="20dp"
+            />
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/Tarjeta"
+            style="@style/AndroidImageSlider_Corner_Oval_Orange"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            />
+        <TextView
+            android:layout_below="@+id/slider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/color_light"
+            android:background="@color/transparente1"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:id="@+id/txtPeru"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/layout1"
+            android:layout_below="@+id/txtPeru"
+            android:weightSum="1">
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+                <ImageView
+                    android:id="@+id/imgPeru1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"/>
+                <TextView
+                    android:layout_below="@+id/imgPeru1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/color_light"
+                    android:background="@color/transparente1"
+                    android:id="@+id/textImgPeru1"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+                <ImageView
+                    android:id="@+id/imgPeru2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"/>
+                <TextView
+                    android:layout_below="@+id/imgPeru2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/color_light"
+                    android:background="@color/transparente1"
+                    android:id="@+id/textImgPeru2"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/layout2"
+            android:layout_below="@+id/layout1"
+            android:weightSum="1">
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+                <ImageView
+                    android:id="@+id/imgPeru3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"/>
+                <TextView
+                    android:layout_below="@+id/imgPeru3"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/color_light"
+                    android:background="@color/transparente1"
+                    android:id="@+id/textImgPeru3"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+                <ImageView
+                    android:id="@+id/imgPeru4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"/>
+                <TextView
+                    android:layout_below="@+id/imgPeru4"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/color_light"
+                    android:background="@color/transparente1"
+                    android:id="@+id/textImgPeru4"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
